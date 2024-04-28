@@ -5,7 +5,7 @@ if (fs.existsSync("config.env"))
 
 const toBool = (x) => x == "true";
 
-DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
+DATABASE_URL = process.env.DATABASE_URL || "postgres://postgres.khyrqfdhjuxznnosguvk:Seth&Liya@4@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres";
 
 
 module.exports = {
